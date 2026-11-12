@@ -36,13 +36,10 @@
     .button{display:inline-block;background:#315bff;color:#fff;padding:12px 20px;text-decoration:none;margin-top:10px}
     @media(max-width:700px){.split,.grid{grid-template-columns:1fr}}
   </style>
-</head>
+<link rel="stylesheet" href="/assets/portfolio-navigation.css"></head>
 <body>
   <div class="wrap">
-    <nav aria-label="Portfolio navigation">
-      <a class="wordmark" href="../../">Sidney Magaña</a>
-      <div><a href="../../#work">Selected work</a> · <a href="../../#about">About</a> · <a href="../../#contact">Inquire</a></div>
-    </nav>
+    <nav class="site-menu" aria-label="Main navigation"><a class="site-brand" href="/"><img src="/assets/brand/sidney-sm-logo.webp" width="56" height="56" alt="Sidney Magaña SM logo"><span>Sidney Magaña</span></a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-menu">Menu <span class="menu-symbol" aria-hidden="true">☰</span></button><div id="primary-menu" class="site-links"><a href="/">Home</a><a href="/about/">About</a><a href="/portfolio/" aria-current="page">Portfolio</a><a href="/insights/">Insights</a><a href="/contact/">Contact</a></div></nav>
     <main>
       <header class="hero">
         <p class="eyebrow">E-commerce operations · Applied AI</p>
@@ -74,10 +71,11 @@
       </section>
       <section class="split" aria-labelledby="result">
         <div><p class="eyebrow">04 / Result</p><h2 id="result">A self-service path and a support handoff.</h2></div>
-        <div><p>Our three-person team completed the Partner Support training work. The resulting chat support gave merchants a self-service path for routine questions and supported smaller sales teams and third-party support centers. The training and knowledge base also helped transfer the support operation to a third-party team.</p><p class="caption">Independent portfolio case study based on my work supporting Google.</p><a class="button" href="../../#contact">Discuss a project</a><p><a href="../google-merchant-quotas/">Related case study: From Crisis to Prevention</a></p></div>
+        <div><p>Our three-person team completed the Partner Support training work. The resulting chat support gave merchants a self-service path for routine questions and supported smaller sales teams and third-party support centers. The training and knowledge base also helped transfer the support operation to a third-party team.</p><p class="caption">Independent portfolio case study based on my work supporting Google.</p><a class="button" href="/contact/#contact">Discuss a project</a><p><a href="../google-merchant-quotas/">Related case study: From Crisis to Prevention</a></p></div>
       </section>
     </main>
-    <footer>Sidney Magaña · <a href="../../">Return to portfolio</a></footer>
+    <footer class="quiet-footer"><div>Sidney Magaña · San Francisco Bay Area<br>Human insight. Worlds ahead.</div><div class="footer-links"><a href="/services/">Work with me</a><a href="/resources/">Free resources</a><a href="/brand-identity/">Brand identity</a><a href="/faq/">FAQ</a><a href="https://www.linkedin.com/in/sidneymagana/">LinkedIn</a></div></footer>
   </div>
-</body>
+<script>(function(){const nav=document.querySelector('.site-menu');if(!nav)return;const toggle=nav.querySelector('.menu-toggle');const links=nav.querySelector('.site-links');nav.dataset.menuReady='true';function close(){nav.dataset.open='false';toggle.setAttribute('aria-expanded','false');}toggle.addEventListener('click',()=>{const open=toggle.getAttribute('aria-expanded')!=='true';toggle.setAttribute('aria-expanded',String(open));nav.dataset.open=String(open);});nav.addEventListener('keydown',e=>{if(e.key==='Escape'&&toggle.getAttribute('aria-expanded')==='true'){close();toggle.focus();}});links.addEventListener('click',e=>{if(e.target.closest('a'))close();});document.addEventListener('click',e=>{if(!nav.contains(e.target))close();});})();</script></body>
 </html>
+
