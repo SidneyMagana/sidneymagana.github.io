@@ -6,3 +6,6 @@
 
 /* Consistent readable hierarchy on supporting pages. */
 h1,.pathways-site h1{font-size:clamp(2.8rem,6.5vw,5.6rem);line-height:1.1;letter-spacing:-.025em}h2,.pathways-site h2{font-size:clamp(2.3rem,4.5vw,3.8rem);line-height:1.15}h3{line-height:1.25}section{scroll-margin-top:24px}p,li{overflow-wrap:break-word}@media(max-width:700px){h2,.pathways-site h2{font-size:2.25rem}}
+
+/* Keep Instagram's injected absolute-position iframe inside its column. */
+.instagram-post-wrap{position:relative;min-width:0}.instagram-post-wrap iframe.instagram-media{position:static!important;display:block!important;width:100%!important;max-width:540px!important;min-width:0!important;box-sizing:border-box}
