@@ -1,0 +1,40 @@
+/* Flagship unified editorial layer | mobile-first | additive only.
+   Home and sub-brands intentionally excluded. All original content retained. */
+body.flagship-unified{--flag-ink:#050914;--flag-paper:#f4f7ff;--flag-blue:#315bff;--flag-cyan:#71e5ff;--flag-line:#cbd3e0;overflow-wrap:break-word}
+.flagship-unified .site-menu,.flagship-unified nav:not(.pw-rolemenu){border-bottom-color:#ffffff2b}
+.flagship-unified .site-brand img,.flagship-unified nav>a:first-child img{width:56px;height:56px;object-fit:contain}
+.flagship-unified .site-menu .site-links a:focus-visible,.flagship-unified a:focus-visible,.flagship-unified button:focus-visible{outline:3px solid #ff4d57;outline-offset:4px}
+.flagship-unified h1{letter-spacing:-.045em;line-height:1.09}
+.flagship-unified h2{letter-spacing:-.035em;line-height:1.15}
+.flagship-unified .hero,.flagship-unified .about-hero{position:relative;isolation:isolate}
+.flagship-unified .hero .lead,.flagship-unified .about-hero .lead{max-width:68ch}
+.flagship-unified img,.flagship-unified video{max-width:100%}
+.flagship-unified figure img{height:auto}
+.flagship-unified section{scroll-margin-top:24px}
+.flagship-unified .pw-card,.flagship-unified .card,.flagship-unified .about-strength-grid article,.flagship-unified .about-proof-grid article{border-radius:0}
+.flagship-unified .button,.flagship-unified .btn,.flagship-unified .pw-actions a{border-radius:0}
+.flagship-unified .site-menu .site-links a[aria-current=page]{text-decoration:underline;text-decoration-color:#71e5ff;text-underline-offset:7px}
+.flagship-unified .site-menu{position:relative;z-index:5}
+.flagship-unified .hero{padding-block:clamp(54px,8vw,96px)}
+.flagship-unified .eyebrow{letter-spacing:.14em}
+.flagship-unified .section-heading{gap:28px}
+.flagship-unified .pw-grid{gap:clamp(16px,3vw,28px)}
+.flagship-unified .pw-card{min-width:0}
+.flagship-unified .pw-card h3{line-height:1.25}
+.flagship-unified .pw-card p{line-height:1.65}
+.flagship-unified .visual img,.flagship-unified .hero-art{display:block;max-width:100%;object-fit:contain}
+.flagship-unified .about-film-frame video{width:100%}
+.flagship-unified video{background:#050914}
+.flagship-unified figcaption{line-height:1.55}
+@media(min-width:761px){.flagship-unified .hero h1{max-width:16ch}.flagship-unified .site-menu .site-links{gap:clamp(16px,2.5vw,30px)}}
+@media(max-width:760px){
+.flagship-unified .hero{padding-block:48px 54px}
+.flagship-unified .hero h1,.flagship-unified .about-hero h1{font-size:clamp(2.65rem,10vw,4.25rem);overflow-wrap:normal}
+.flagship-unified .hero .lead{font-size:clamp(1rem,4vw,1.22rem)}
+.flagship-unified .site-brand img,.flagship-unified nav>a:first-child img{width:52px;height:52px}
+.flagship-unified .pw-card,.flagship-unified .card{padding:22px}
+.flagship-unified .grid,.flagship-unified .featured,.flagship-unified .intro-grid{min-width:0}
+.flagship-unified .section-heading{display:block}
+.flagship-unified .about-future{gap:26px}
+}
+@media(prefers-reduced-motion:reduce){.flagship-unified *, .flagship-unified *::before,.flagship-unified *::after{scroll-behavior:auto!important;animation-duration:.01ms!important;transition-duration:.01ms!important}}
