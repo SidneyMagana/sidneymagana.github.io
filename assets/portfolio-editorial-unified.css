@@ -1,0 +1,47 @@
+/* Portfolio editorial alignment — additive, scoped, and reversible.
+   Preserves all existing content, media, anchors, and interaction. */
+body.portfolio-editorial{background:#f4f7ff;color:#050914;font:16px/1.65 Arial,Helvetica,sans-serif}
+.portfolio-editorial .wrap{width:min(1180px,90%)}
+.portfolio-editorial nav{background:#050914;color:#f4f7ff;border-color:#ffffff30;min-height:88px}
+.portfolio-editorial nav .logo img{width:56px;height:56px}
+.portfolio-editorial nav .links{font-size:14px;gap:30px}
+.portfolio-editorial .hero{background:#050914;color:#f4f7ff;box-shadow:0 0 0 100vmax #050914;clip-path:inset(0 -100vmax);padding:76px 0 86px}
+.portfolio-editorial .hero h1{font-size:clamp(3rem,5.8vw,5rem);letter-spacing:-.045em;line-height:1.08}
+.portfolio-editorial .hero-image{border-radius:0;box-shadow:none;object-fit:cover}
+.portfolio-editorial .hero .lead{color:#d0d7e6}
+.portfolio-editorial .btn{background:#315bff;border-radius:0;padding:15px 22px}
+.portfolio-editorial .section{padding:84px 0;border-color:#cbd3e0}
+.portfolio-editorial .section h2{font-size:clamp(2.2rem,4vw,3.4rem);letter-spacing:-.045em}
+.portfolio-editorial .section-heading p,.portfolio-editorial .work p,.portfolio-editorial .featured p,.portfolio-editorial .editorial-panel p,.portfolio-editorial .more-work-row p{color:#526079}
+.portfolio-editorial .eyebrow,.portfolio-editorial .tag,.portfolio-editorial .more-work-group h3{color:#315bff}
+.portfolio-editorial .work,.portfolio-editorial .editorial-panel{background:#fff;border:1px solid #cbd3e0;border-radius:0;overflow:hidden}
+.portfolio-editorial .work img,.portfolio-editorial .editorial-panel img,.portfolio-editorial .featured img{border-radius:0}
+.portfolio-editorial .work-body{padding:28px}
+.portfolio-editorial .work h3,.portfolio-editorial .editorial-panel h3{letter-spacing:-.035em}
+.portfolio-editorial .text-link{color:#173b85;border-color:#315bff}
+.portfolio-editorial .perspectives-feature{border-radius:0;background:#050914;border-color:#304158}
+.portfolio-editorial .perspectives-foot{color:#f4f7ff}
+.portfolio-editorial #creative-perspectives{background:#f4f7ff}
+.portfolio-editorial #creative{background:#f4f7ff}
+.portfolio-editorial #impact{background:#050914;color:#f4f7ff;box-shadow:0 0 0 100vmax #050914;clip-path:inset(0 -100vmax);border:0}
+.portfolio-editorial #impact .section-heading p,.portfolio-editorial #impact .work p,.portfolio-editorial #impact .featured p{color:#c1cee2}
+.portfolio-editorial #impact .eyebrow,.portfolio-editorial #impact .tag,.portfolio-editorial #impact .text-link{color:#71e5ff}
+.portfolio-editorial #impact .work{background:#101c33;border-color:#304158}
+.portfolio-editorial #impact .text-link{border-color:#71e5ff}
+.portfolio-editorial #more-selected-work{background:#f4f7ff}
+.portfolio-editorial .more-work-row{border-color:#cbd3e0}
+.portfolio-editorial .more-work-row a{color:#315bff}
+.portfolio-editorial #writing{color:#f4f7ff}
+.portfolio-editorial #writing .section-heading p,.portfolio-editorial #writing .editorial-panel p{color:#d0d7e6}
+.portfolio-editorial #writing .editorial-panel{background:#081429ed;border-color:#304158}
+.portfolio-editorial #writing .tag,.portfolio-editorial #writing .text-link{color:#71e5ff}
+.portfolio-editorial #editorial{background:#f4f7ff}
+.portfolio-editorial #editorial .editorial-panel{padding:22px}
+.portfolio-editorial #contact{background:#315bff;color:#fff;box-shadow:0 0 0 100vmax #315bff;clip-path:inset(0 -100vmax);padding:70px 0}
+.portfolio-editorial #contact p,.portfolio-editorial #contact .mini,.portfolio-editorial #contact .eyebrow{color:#fff}
+.portfolio-editorial #contact .contact-actions a.primary{background:#fff;color:#050914;border-color:#fff}
+.portfolio-editorial #contact .contact-actions a:not(.primary){border-color:#fff}
+.portfolio-editorial a:focus-visible{outline:3px solid #ff4d57;outline-offset:4px}
+@media(max-width:800px){.portfolio-editorial .section{padding:55px 0}.portfolio-editorial .hero{padding:52px 0}.portfolio-editorial .work-grid,.portfolio-editorial .editorial-grid{grid-template-columns:1fr}.portfolio-editorial nav .links{gap:14px}}
+@media(max-width:480px){.portfolio-editorial nav{align-items:center}.portfolio-editorial nav .logo span{display:none}.portfolio-editorial .hero h1{font-size:clamp(2.7rem,11vw,4rem)}.portfolio-editorial #contact{padding:50px 0}}
+@media(prefers-reduced-motion:reduce){.portfolio-editorial *{scroll-behavior:auto!important}}
