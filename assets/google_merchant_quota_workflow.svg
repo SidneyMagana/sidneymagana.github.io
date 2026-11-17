@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="920" viewBox="0 0 1600 920" role="img" aria-labelledby="title desc">
+<title id="title">Merchant Quota Management — Before and After Workflow</title>
+<desc id="desc">Editable reconstructed workflow showing reactive merchant quota escalation before, and proactive monitoring with automated case creation and human review and approval after.</desc>
+<defs>
+ <marker id="arrowMuted" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9" fill="none" stroke="#9BAAC4" stroke-width="1.7"/></marker>
+ <marker id="arrowCyan" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9" fill="none" stroke="#71E5FF" stroke-width="1.7"/></marker>
+</defs>
+<rect width="1600" height="920" fill="#050914"/>
+<rect x="64" y="54" width="7" height="63" rx="3" fill="#315BFF"/>
+<text x="94" y="75" font-family="Arial, Helvetica, sans-serif" font-size="19" letter-spacing="3" fill="#71E5FF">GOOGLE · RETAIL PARTNER SUPPORT</text>
+<text x="94" y="119" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700" fill="#F4F7FF">From reactive escalation to proactive intervention</text>
+<text x="94" y="155" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#AAB9D0">Merchant quota management  /  reconstructed service workflow</text>
+
+<text x="74" y="230" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="2" fill="#F4F7FF">BEFORE</text>
+<text x="175" y="230" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#AAB9D0">Reactive response</text>
+<line x1="74" y1="250" x2="1526" y2="250" stroke="#36445E" stroke-width="2"/>
+
+<g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+ <rect x="74" y="280" width="315" height="124" rx="14" fill="#111B30" stroke="#58677F" stroke-width="2"/>
+ <text x="231" y="327" font-size="24" font-weight="700" fill="#F4F7FF">Merchant quota</text><text x="231" y="357" font-size="24" font-weight="700" fill="#F4F7FF">issue</text>
+ <rect x="453" y="280" width="315" height="124" rx="14" fill="#111B30" stroke="#58677F" stroke-width="2"/>
+ <text x="610" y="327" font-size="24" font-weight="700" fill="#F4F7FF">Partner</text><text x="610" y="357" font-size="24" font-weight="700" fill="#F4F7FF">disruption</text>
+ <rect x="832" y="280" width="315" height="124" rx="14" fill="#111B30" stroke="#58677F" stroke-width="2"/>
+ <text x="989" y="327" font-size="24" font-weight="700" fill="#F4F7FF">Reactive</text><text x="989" y="357" font-size="24" font-weight="700" fill="#F4F7FF">escalation</text>
+ <rect x="1211" y="280" width="315" height="124" rx="14" fill="#111B30" stroke="#58677F" stroke-width="2"/>
+ <text x="1368" y="342" font-size="24" font-weight="700" fill="#F4F7FF">Investigation</text>
+</g>
+<g stroke="#9BAAC4" stroke-width="2.5" marker-end="url(#arrowMuted)"><line x1="398" y1="342" x2="441" y2="342"/><line x1="777" y1="342" x2="820" y2="342"/><line x1="1156" y1="342" x2="1199" y2="342"/></g>
+<text x="74" y="444" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#AAB9D0">Issue identified after disruption; support response began through escalation.</text>
+
+<text x="74" y="520" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="2" fill="#71E5FF">AFTER</text>
+<text x="170" y="520" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#AAB9D0">Proactive monitoring + human decision-making</text>
+<line x1="74" y1="540" x2="1526" y2="540" stroke="#315BFF" stroke-width="2"/>
+
+<g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+ <rect x="74" y="573" width="266" height="137" rx="14" fill="#10254B" stroke="#315BFF" stroke-width="2"/>
+ <text x="207" y="619" font-size="22" font-weight="700" fill="#F4F7FF">Monitoring</text><text x="207" y="647" font-size="22" font-weight="700" fill="#F4F7FF">signal</text>
+ <rect x="367" y="573" width="266" height="137" rx="14" fill="#10254B" stroke="#315BFF" stroke-width="2"/>
+ <text x="500" y="612" font-size="21" font-weight="700" fill="#F4F7FF">Support case</text><text x="500" y="641" font-size="21" font-weight="700" fill="#F4F7FF">opened</text><text x="500" y="678" font-size="16" fill="#71E5FF">AUTOMATED</text>
+ <rect x="660" y="573" width="266" height="137" rx="14" fill="#10254B" stroke="#315BFF" stroke-width="2"/>
+ <text x="793" y="612" font-size="21" font-weight="700" fill="#F4F7FF">Merchant quality</text><text x="793" y="641" font-size="21" font-weight="700" fill="#F4F7FF">review</text><text x="793" y="678" font-size="16" fill="#71E5FF">HUMAN REVIEW</text>
+ <rect x="953" y="573" width="266" height="137" rx="14" fill="#10254B" stroke="#315BFF" stroke-width="2"/>
+ <text x="1086" y="612" font-size="21" font-weight="700" fill="#F4F7FF">Human</text><text x="1086" y="641" font-size="21" font-weight="700" fill="#F4F7FF">approval</text><text x="1086" y="678" font-size="16" fill="#71E5FF">MANUAL GATE</text>
+ <rect x="1246" y="573" width="280" height="137" rx="14" fill="#315BFF" stroke="#71E5FF" stroke-width="2"/>
+ <text x="1386" y="618" font-size="22" font-weight="700" fill="#FFFFFF">Proactive</text><text x="1386" y="648" font-size="22" font-weight="700" fill="#FFFFFF">intervention</text>
+</g>
+<g stroke="#71E5FF" stroke-width="2.5" marker-end="url(#arrowCyan)"><line x1="348" y1="641" x2="355" y2="641"/><line x1="641" y1="641" x2="648" y2="641"/><line x1="934" y1="641" x2="941" y2="641"/><line x1="1227" y1="641" x2="1234" y2="641"/></g>
+<text x="74" y="754" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#AAB9D0">Monitoring initiated the case; review and approval remained human-led before intervention.</text>
+<line x1="74" y1="809" x2="1526" y2="809" stroke="#36445E" stroke-width="1"/>
+<text x="74" y="846" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#AAB9D0">RECONSTRUCTED PROCESS BASED ON FIRSTHAND EXPERIENCE</text>
+<text x="74" y="877" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#7F90AB">Illustrative workflow · not a proprietary system screenshot · no performance metrics implied</text>
+<text x="1526" y="872" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#71E5FF" text-anchor="end">SIDNEY MAGAÑA</text>
+</svg>
